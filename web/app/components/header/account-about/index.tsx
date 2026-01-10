@@ -35,15 +35,19 @@ export default function AccountAbout({
           <RiCloseLine className="h-4 w-4 text-text-tertiary" />
         </div>
         <div className="flex flex-col items-center gap-4 py-8">
-          {systemFeatures.branding.enabled && systemFeatures.branding.workspace_logo
-            ? (
-                <img
-                  src={systemFeatures.branding.workspace_logo}
-                  className="block h-7 w-auto object-contain"
-                  alt="logo"
-                />
-              )
-            : <DifyLogo size="large" className="mx-auto" />}
+          {
+          
+          // systemFeatures.branding.enabled && systemFeatures.branding.workspace_logo
+          //   ? (
+          //       <img
+          //         src={systemFeatures.branding.workspace_logo}
+          //         className="block h-7 w-auto object-contain"
+          //         alt="logo"
+          //       />
+          //     )
+          //   : <DifyLogo size="large" className="mx-auto" />
+            
+            }
 
           <div className="text-center text-xs font-normal text-text-tertiary">
             Version

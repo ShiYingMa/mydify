@@ -33,7 +33,7 @@ const meta = {
     layout: 'centered',
     docs: {
       description: {
-        component: 'Minimal spinner powered by Tailwind utilities. Toggle the state to inspect motion-reduced behaviour.',
+        component: '极简模式由留坝县智慧水利知识库Ai助手提供 ，采用 Tailwind 通用组件技术。切换状态即可查看减少运动影响后的效果。',
       },
     },
   },
