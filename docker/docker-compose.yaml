@@ -814,7 +814,11 @@ services:
 
   # Frontend web application.
   web:
-    image: langgenius/dify-web:1.11.2
+    image:  dify-web:myimage
+    build:
+      context: ../web
+      dockerfile: Dockerfile 
+      no_cache: true
     restart: always
     environment:
       CONSOLE_API_URL: ${CONSOLE_API_URL:-}
